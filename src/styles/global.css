@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.feature-item {
+  flex-basis: 95%;
+
+  margin: 0px 10px;
+
+  padding: 20px 15px;
+
+  background-color: #fff;
+
+  border-radius: 15px 15px 15px 15px;
+
+  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+}
