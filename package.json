@@ -15,10 +15,12 @@
     "@radix-ui/react-checkbox": "^1.0.3",
     "@radix-ui/react-popover": "1.0.5",
     "@radix-ui/react-slot": "^1.0.1",
+    "@storybook/addon-a11y": "^7.0.4",
     "clsx": "^1.2.1",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-native-svg": "^13.9.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.4",

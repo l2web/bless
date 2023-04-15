@@ -1,4 +1,10 @@
-  <svg
+import { SVGAttributes } from "react";
+
+interface LogoProps extends SVGAttributes<HTMLOrSVGElement> {}
+
+export function Logo(props: LogoProps) {
+  return (
+    <svg
     width={80}
     height={80}
     viewBox="0 0 80 80"
@@ -16,3 +22,5 @@
       </clipPath>
     </defs>
   </svg>
+  )
+}
