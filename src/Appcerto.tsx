@@ -10,24 +10,14 @@ import './styles/global.css';
 
 export function App() {
   return (
-        <div className="max-w-full bg-gradient-to-br from-purple-800 via-purple-700 to-purple-900 flex flex-wrap sm:justify-center items-center pt-6 sm:pt-0 sm:w-1/2">
-      <div className="flex flex-wrap sm:justify-center items-center">
-        <div className="flex-col justify-center items-center">
-        <Logo />
-        <Heading size="lg" className="ml-2 font-semibold text-gray-100">
-          Bless
-        </Heading>
-        </div>
-      </div>
-      <div className="relative w-full sm:max-w-sm sm:w-1/2">
-        
-          <div className="w-screen h-screen flex flex-col items-center justify-center text-gray-600 ">
+    <div className="w-screen h-screen flex flex-col items-center justify-center text-gray-600 bg-gradient-to-br from-purple-800 via-purple-700 to-purple-900 animate-gradient">
      <header className="flex flex-col items-center justify-center">
       
     <Text size="lg" className="text-gray-400 mt-1">
       Faça login e comece a usar!
     </Text>
   </header>
+
       <div className="feature-item bg-white flex flex-col items-center justify-top max-h-96 shadow-md">
       <div className="flex items-center">
         <Logo />
@@ -74,9 +64,6 @@ export function App() {
             <a href="" className="text-gray-800 underline hover:text-gray-400">Não possui conta? Crie uma agora!</a>
           </Text>
         </footer>
-      </div>
-    </div>
-        
       </div>
     </div>
   );
